@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family:"Poppins-bold";
+    src: url('./assets/Poppins-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "Poppins-light";
+    src: url(./assets/Poppins-Light.ttf) format('truetype');
+}
