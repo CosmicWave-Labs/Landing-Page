@@ -3,7 +3,7 @@ import { GrLanguage } from "react-icons/gr";
 
 const NavBar:FC=()=>{
     return(
-        <header className=' bg-[#302444] w-full h-[10vh] grid grid-cols-[10%_60%_30%] gap-4 fixed'>
+        <header className=' bg-[#302444] w-full h-[10vh] grid grid-cols-[10%_60%_30%] gap-4 fixed shadow-2xl'>
             <div className='flex items-center justify-center'>
                 <div className=' bg-[#231931] w-14 h-14 rounded-lg'></div>
             </div>
