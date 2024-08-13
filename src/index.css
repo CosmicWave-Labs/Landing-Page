@@ -11,3 +11,9 @@
     font-family: "Poppins-light";
     src: url(./assets/Poppins-Light.ttf) format('truetype');
 }
+
+@font-face {
+    font-family: "Poppins-Extra-Light";
+    src: url(./assets/Poppins-ExtraLight.ttf) format('truetype');
+}
+

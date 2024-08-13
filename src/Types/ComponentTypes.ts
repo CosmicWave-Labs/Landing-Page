@@ -32,3 +32,8 @@ export interface ContactData {
 }
 
 
+export interface ServiceComponentType{
+    Icon: IconType | string,
+    Title: string,
+    Span: string
+}
