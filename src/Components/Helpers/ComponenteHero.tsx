@@ -23,7 +23,7 @@ const Hero:FC = () => {
         <div className=' w-full h-full flex flex-col justify-end items-center gap-8'>
             <div className=' w-[70%] h-2/4 grid grid-cols-[50%_50%]'>
                 <div className=''>
-                    <h1 className=' text-6xl text-white font-semibold leading-snug'>Transforma tu mundo digital con <span className='text-[#31E098]'> Cosmic Wave Labs</span></h1>
+                    <h1 className=' text-6xl text-white font-semibold leading-snug'>Transforma tu mundo digital con <span className='text-GreenText'> Cosmic Wave Labs</span></h1>
                     <br />
                     <p className=' text-[#a3a3a3] font-thin text-2xl'>Ofrecemos soluciones de software innovadoras que optimizan tu flujo de trabajo y potencian tu negocio.</p>
                 </div>

@@ -1,19 +1,14 @@
 import { FC } from "react";
-import { IconType } from "react-icons";
+import {ComponenteFooterTypes} from '../../Types/ComponentTypes'
 
-interface ComponenteFooterTypes{
-    Icon:IconType,
-    Font: string,
-    Span: string
 
-}
 
-const ComponenteFooter:FC<ComponenteFooterTypes> = ({Icon, Font,Span}) => {
+const ComponenteFooter:FC<ComponenteFooterTypes> = ({Icon, Font, Span, classNameIcon, classNameSpan}) => {
     return(
-        <div className="flex">
-                <div>
-                    <Icon/>
-                    <span className={`font-${Font}`}>{Span}</span>
+        <div >
+                <div className="flex items-center mb-2">
+                    <Icon className={`text-NormalWhite ${classNameIcon}`}/>
+                    <span className={`font-${Font} text-NormalWhite ml-2 ${classNameSpan}` }>{Span}</span>
                 </div>
         </div>
     )   
