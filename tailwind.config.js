@@ -12,7 +12,8 @@ export default {
         PurpleFooter:'#473573',
         main:'#231931',
         secondary:'#302444',
-        Icon: '#695DA7'
+        Icon: '#695DA7',
+        greenProj: "#00FFAF"
       },
       fontFamily:{
         'Poppins-Bold':['Poppins-bold','Serif'],

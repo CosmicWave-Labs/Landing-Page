@@ -1,6 +1,6 @@
 import { FC } from "react";
 
-const Mision:FC = () => {
+export const Mision:FC = () => {
     return(
         <section className="flex items-center justify-center">
             <div className=" w-[300px] h-[370px] bg-white z-10 items-start p-5 justify-center flex flex-col">
@@ -16,5 +16,3 @@ const Mision:FC = () => {
         </section>
     )
 }
-
-export default Mision;

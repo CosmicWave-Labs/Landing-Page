@@ -1,7 +1,7 @@
 import { FC } from "react";
 import Divider from "./Helpers/dividerComponent";
 
-const OurTeam:FC = () => {
+export const OurTeam:FC = () => {
     return(
         <section className="grid grid-rows-[1fr_3.5fr_1fr]">
             <Divider Rot={'rotate-[8.82deg]'}/>
@@ -15,4 +15,3 @@ const OurTeam:FC = () => {
     )
 }
 
-export default OurTeam;

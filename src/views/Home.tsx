@@ -1,9 +1,8 @@
 import { FC } from "react"
-import NavBar from "./Helpers/ComponenteHomeNav"
-import Hero from "./Helpers/ComponenteHero"
-import AboutUs from "./AboutUs"
-import Footer from './Footer'
-import Services from './Services'
+import NavBar from "../Components/Helpers/ComponenteHomeNav"
+import Hero from "../Components/Helpers/ComponenteHero"
+
+import {AboutUs,Footer,Projects,Services,FooterBar} from '../Components'
 
 const Home:FC = () =>{
     return(
@@ -12,7 +11,9 @@ const Home:FC = () =>{
             <Hero/>
             <AboutUs/>
             <Services/>
+            <Projects/>
             <Footer/>
+            <FooterBar/>
         </section>
     )
 }

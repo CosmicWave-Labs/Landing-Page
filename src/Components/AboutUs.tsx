@@ -1,7 +1,7 @@
 import { FC } from "react";
-import OurTeam from "./OurTeam";
-import Mision from "./Mision";
-const AboutUs:FC = () => {
+import {OurTeam, Mision} from "./index";
+
+export const AboutUs:FC = () => {
     return(
         <section className="w-full h-[250vh] bg-[#30244C] relative overflow-hidden">
             <div className="grid grid-cols-[50%_50%]">
@@ -27,5 +27,3 @@ const AboutUs:FC = () => {
         </section>
     )
 }
-
-export default AboutUs

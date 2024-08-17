@@ -4,7 +4,7 @@ import ComponenteFooter from './Helpers/ComponenteFooter'
 import ButtonComponent from './Helpers/ButtonComponent'
 import { ContactData, ButtonComponentType } from '../Types/ComponentTypes'
 
-const Footer: FC = () => {
+export const Footer: FC = () => {
     const textareaRef = useRef<HTMLTextAreaElement>(null);
 
     useEffect(() => {
@@ -98,4 +98,3 @@ const Footer: FC = () => {
     )
 }
 
-export default Footer
