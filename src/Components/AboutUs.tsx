@@ -4,7 +4,7 @@ import {OurTeam, Mision} from "./index";
 export const AboutUs:FC = () => {
     return(
         <section className="w-full bg-[#30244C] relative overflow-hidden mb-12">
-            <div className="max-2xl:grid max-2xl:grid-cols-[55%_45%] max-2xl:justify-center max-2xl:content-center max-[1114px]:flex max-[1114px]:flex-col-reverse">
+            <div className="grid grid-cols-[55%_45%] justify-center content-center max-[1114px]:flex max-[1114px]:flex-col-reverse">
                 <div className="flex gap-6 items-start justify-end m-8 max-[1114px]:justify-center">
                     <div className="bg-white w-60 mt-32 h-96 z-10 max-[1114px]:mt-0">FOTON</div>
                     <div className="bg-white w-60 h-96 max-[1114px]:">FOTON</div>
@@ -19,7 +19,7 @@ export const AboutUs:FC = () => {
                         <div className="bg-white w-4 h-7"></div>
                     </div>
                     <p className="w-[80%] text-white font-Poppins-Extra-Light">Somos un equipo apasionado por la tecnología, dedicado a crear soluciones de software innovadoras que transforman la manera en que las empresas operan. Queremos convertirnos en un referente en el desarrollo de software personalizado, ayudando a nuestros clientes a superar desafíos complejos con soluciones de alto rendimiento.</p>
-                    <a className="cursor-pointer font-Poppins-Bold text-[#005033] bg-GreenText max-2xl:w-[60%] max-[1114px]:w-72 text-center h-12 flex items-center justify-center rounded-lg text-xl">¡Empecemos a trabajar!</a>
+                    <a className="cursor-pointer font-Poppins-Bold text-[#005033] bg-GreenText w-[60%] max-[1114px]:w-72 text-center h-12 flex items-center justify-center rounded-lg text-xl">¡Empecemos a trabajar!</a>
                 </div>
             </div>
             <OurTeam/>

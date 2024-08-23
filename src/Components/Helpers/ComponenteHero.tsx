@@ -21,7 +21,7 @@ const Hero:FC = () => {
     ]
     return(
         <div className=' w-full h-screen flex flex-col justify-end items-center gap-8'>
-            <div className=' max-2xl:w-[70%] max-2xl:h-2/4 max-2xl:grid max-2xl:grid-cols-[50%_50%] max-[888px]:flex max-[888px]:flex-col max-[888px]:justify-center max-[888px]:items-center'>
+            <div className='w-[70%] h-2/4 grid grid-cols-[50%_50%] max-[888px]:flex max-[888px]:flex-col max-[888px]:justify-center max-[888px]:items-center'>
                 <div className=' flex flex-col items-center justify-center'>
                     <h1 className='text-4xl text-white font-Poppins-Bold leading-snug max-[888px]:hidden'>Transforma tu mundo digital con <span className='text-GreenText'> Cosmic Wave Labs</span></h1>
                     <br />
