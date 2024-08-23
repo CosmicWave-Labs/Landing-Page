@@ -17,3 +17,7 @@
     src: url(./assets/Poppins-ExtraLight.ttf) format('truetype');
 }
 
+body {
+    background-color:#30244C;
+}
+
