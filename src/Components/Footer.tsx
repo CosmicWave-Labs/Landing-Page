@@ -30,8 +30,8 @@ export const Footer: FC = () => {
 
     const Font = 'Poppins-light'
     const FooterContactData: ContactData[] = [
-        { Icon: CiMail, Span: 'luis.cabral@cosmicwavelabs.dev', Font, classNameIcon: "text-4xl" },
-        { Icon: CiPhone, Span: '618-XXX-XXXX', Font, classNameIcon: "text-4xl" },
+        { Icon: CiMail, Span: 'cosmicwavelabs@gmail.com', Font, classNameIcon: "text-4xl" },
+        { Icon: CiPhone, Span: '618-120-6846', Font, classNameIcon: "text-4xl" },
         { Icon: CiLocationOn, Span: 'Durango, Dgo, Mexico.', Font, classNameIcon: "text-4xl" }
     ]
     const Color: string = 'NormalWhite'
@@ -46,17 +46,13 @@ export const Footer: FC = () => {
         <section className="bg-NormalWhite w-full h-full flex items-center justify-center">
             <div className="bg-NormalWhite shadow-2xl p-6 w-full max-w-7xl flex flex-col md:flex-row relative mt-24 mb-24">
                 <div className="flex-1 ">
-                    <h1 className="text-black font-Poppins-Bold text-6xl drop-shadow-2xl">Contactanos</h1>
+                    <h1 className="text-black font-Poppins-Bold text-6xl drop-shadow-2xl mb-6">Contactanos</h1>
 
-                    <form className="space-y-6 mt-6 mr-12">
-                        <label className="font-Poppins-Light">Nombre</label>
-                        <input type="text" className="w-full p-2 border-0 border-b-2 border-black outline-none bg-NormalWhite" />
-                        <label>Apellido</label>
-                        <input type="text" className="w-full p-2 border-0 border-b-2 border-black outline-none bg-NormalWhite" />
-                        <label>Correo Electronico</label>
-                        <input type="email" className="w-full p-2 border-0 border-b-2 border-black outline-none bg-NormalWhite" />
-                        <label>Mensaje</label>
-                        <textarea ref={textareaRef} className="w-full p-2 border-0 border-b-2 border-black outline-none bg-NormalWhite"></textarea>
+                    <form className="mt-4 mr-12 mb-2">
+                        <input type="text" className="w-full p-2 border-0 border-b-2 border-black outline-none bg-NormalWhite mb-4" placeholder='Nombre(s)'/>
+                        <input type="text" className="w-full p-2 border-0 border-b-2 border-black outline-none bg-NormalWhite mb-4" placeholder='Apellido' />
+                        <input type="email" className="w-full p-2 border-0 border-b-2 border-black outline-none bg-NormalWhite mb-4" placeholder='Correo Electronico'/>
+                        <textarea ref={textareaRef} className="w-full p-2 border-0 border-b-2 border-black outline-none bg-NormalWhite" placeholder='Mensaje'></textarea>
                     </form>
                     <button className="mt-4 ml-2 px-48 py-2 bg-[#000000]   text-white rounded-md">
                         Enviar
@@ -66,7 +62,7 @@ export const Footer: FC = () => {
                 <div className="bg-PurpleFooter flex-1 flex items-center p-6 relative z-10 pr-32 pl-32">
                   <div className="flex flex-col ml-2">
                       <div className="flex flex-col items-start space-y-4">
-                        <h1 className='font-Poppins-Bold text-NormalWhite text-6xl mb-6'>Info</h1>
+                        <h1 className='font-Poppins-Bold text-NormalWhite text-6xl mb-2'>Info</h1>
                           {FooterContactData.map((data, index) => (
                               <ComponenteFooter
                                   key={index}
