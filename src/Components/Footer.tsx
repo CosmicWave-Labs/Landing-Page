@@ -59,7 +59,7 @@ export const Footer: FC = () => {
                     </button>
                 </div>
                 
-                <div className="bg-PurpleFooter flex-1 flex items-center p-6 relative z-10 pr-32 pl-32">
+                <div className="bg-[#192D54] flex-1 flex items-center p-6 relative z-10 pr-32 pl-32">
                   <div className="flex flex-col ml-2">
                       <div className="flex flex-col items-start space-y-4">
                         <h1 className='font-Poppins-Bold text-NormalWhite text-6xl mb-2'>Info</h1>
@@ -88,7 +88,7 @@ export const Footer: FC = () => {
                     </div>
                 </div>
 
-                <div className="absolute -top-4 -bottom-4 right-0 bg-[#6A5DAD] h-auto w-64 md:w-64 z-0"></div>
+                <div className="absolute -top-4 -bottom-4 right-0 bg-[#68BFED] h-auto w-64 md:w-64 z-0"></div>
             </div>
         </section>
     )

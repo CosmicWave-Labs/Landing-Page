@@ -6,7 +6,7 @@ import {AboutUs,Footer,Projects,Services,FooterBar} from '../Components'
 
 const Home:FC = () =>{
     return(
-        <section className=" w-full h-screen bg-[#30244C]">
+        <section className=" w-full h-screen bg-[#192D54]">
             <NavBar></NavBar>
             <Hero/>
             <AboutUs/>

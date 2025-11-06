@@ -35,7 +35,7 @@ export const Services: FC = () => {
                         </div>
                     </div>
                     <div className="flex flex-col items-center ">
-                        <h1 className="text-Icon font-Poppins-Bold text-[40px] max-[1115px]:text-[25px]">Nuestros servicios</h1>
+                        <h1 className="text-[#192D54] font-Poppins-Bold text-[40px] max-[1115px]:text-[25px]">Nuestros servicios</h1>
                         <h1 className="text-black font-Poppins text-[40px] font-medium max-[1115px]:text-[25px]">incluyen</h1>
                     </div>
                 </div>
