@@ -43,25 +43,25 @@ export const Footer: FC = () => {
     ]
 
     return (
-        <section className="bg-NormalWhite w-full h-full flex items-center justify-center">
-            <div className="bg-NormalWhite shadow-2xl p-6 w-full max-w-7xl flex flex-col md:flex-row relative mt-24 mb-24">
-                <div className="flex-1 ">
-                    <h1 className="text-black font-Poppins-Bold text-6xl drop-shadow-2xl mb-6">Contactanos</h1>
+        <section className="bg-NormalWhite w-full flex items-center justify-center min-[1090px]:h-full">
+            <div className="bg-NormalWhite shadow-2xl p-6 w-full max-w-7xl flex relative mt-24 mb-24 max-[1090px]:m-0 max-[1090px]:flex-col max-[1090px]:content-center max-[1090px]:py-0 max-[1090px]:gap-5 max-[1090px]:px-0 max-[1090px]:mt-10">
+                <div className="flex-1 max-[1090px]:flex max-[1090px]:flex-col max-[1090px]:items-center max-[1090px]:justify-center">
+                    <h1 className="text-black font-Poppins-Bold text-6xl drop-shadow-2xl mb-6  max-[1090px]:flex  max-[1090px]:items-center  max-[1090px]:justify-center">Contactanos</h1>
 
-                    <form className="mt-4 mr-12 mb-2">
+                    <form className="mt-4 mr-12 mb-2 max-[1090px]:m-0 max-[1090px]:p-2">
                         <input type="text" className="w-full p-2 border-0 border-b-2 border-black outline-none bg-NormalWhite mb-4" placeholder='Nombre(s)'/>
                         <input type="text" className="w-full p-2 border-0 border-b-2 border-black outline-none bg-NormalWhite mb-4" placeholder='Apellido' />
                         <input type="email" className="w-full p-2 border-0 border-b-2 border-black outline-none bg-NormalWhite mb-4" placeholder='Correo Electronico'/>
                         <textarea ref={textareaRef} className="w-full p-2 border-0 border-b-2 border-black outline-none bg-NormalWhite" placeholder='Mensaje'></textarea>
                     </form>
-                    <button className="mt-4 ml-2 px-48 py-2 bg-[#000000]   text-white rounded-md">
+                    <button className="mt-4 ml-2 px-48 py-2 bg-[#000000]   text-white rounded-md ">
                         Enviar
                     </button>
                 </div>
                 
-                <div className="bg-[#192D54] flex-1 flex items-center p-6 relative z-10 pr-32 pl-32">
+                <div className="bg-[#192D54] flex-1 flex items-center p-6 relative z-10 pr-32 pl-32 max-[1090px]:justify-center max-[1090px]:p-0 max-[1090px]:py-3">
                   <div className="flex flex-col ml-2">
-                      <div className="flex flex-col items-start space-y-4">
+                      <div className="flex flex-col items-start space-y-4 max-[1090px]:flex-row max-[1090px]:gap-5">
                         <h1 className='font-Poppins-Bold text-NormalWhite text-6xl mb-2'>Info</h1>
                           {FooterContactData.map((data, index) => (
                               <ComponenteFooter
@@ -75,7 +75,7 @@ export const Footer: FC = () => {
                       </div>
                   </div>
 
-                    <div className="flex flex-col items-center space-y-4 absolute right-0 mr-6">
+                    <div className="flex flex-col items-center space-y-4 absolute right-0 mr-6 max-[1090px]:hidden">
                         {FooterExtra.map((data, index) => (
                             <ButtonComponent
                                 key={index}
@@ -88,7 +88,7 @@ export const Footer: FC = () => {
                     </div>
                 </div>
 
-                <div className="absolute -top-4 -bottom-4 right-0 bg-[#68BFED] h-auto w-64 md:w-64 z-0"></div>
+                <div className="absolute -top-4 -bottom-4 right-0 bg-[#68BFED] h-auto w-64 md:w-64 z-0 max-[1090px]:hidden"></div>
             </div>
         </section>
     )
